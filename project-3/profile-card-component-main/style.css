@@ -11,7 +11,10 @@
 body{
   background-color:hsl(185, 75%, 39%);
   font-family: 'Kumbh Sans', Courier, monospace;
-    
+  background-image: url(images/bg-pattern-top.svg),  url(images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 45vw bottom 50vh, left 50vw top 45vh ;
+  min-height: 100vh;
 }
 .contener{
     position: absolute;
